@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+  <!--  <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"/>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+                        <nav>
+                         <!--   <img src="#" alt="Vaibhav Waghmare" class="logo"/> -->
+                            <h1 class="logo">Vaibhav Waghmare</h1>
+                            <ul id="sidemenu">
+                                <li><a href="#header">Home</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#services">Services</a></li>
+                                <li><a href="#portfolio">Portfolio</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                                <i class="fas fa-times" onclick="closemenu()"></i>
+                            </ul>
+                            <i class="fas fa-bars" onclick="openmenu()"></i>
+                        </nav>
+                        <div class="header-text">
+                            <h1>Hi,<br>This Is <span>Vaibhav</span></h1>
+                            <p>I'm Front-End Developer for creating<br>beautiful and interactive websites.</p>
+                        </div>
+        </div>
+    </div>
+
+    <!-- About Section-->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="asset/about.png" alt="userimage">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>I specialize in HTML, CSS, JavaScript, and modern front-end frameworks. 
+                            My focus is on building responsive, user-friendly interfaces that provide great user experiences.</p>
+                        
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        </div>
+                        
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>HTML5</span><br>Skilled in creating semantic, accessible, and SEO-friendly markup for building structured web pages.</li>
+                                <li><span>CSS3</span><br>Proficient in creating responsive designs using Flexbox, CSS Grid, and media queries. Experience with animations, transitions, and custom styling.</li>
+                                <li><span>Javascript</span><br>Strong understanding of ES6+ features, asynchronous programming (async/await, promises), DOM manipulation, and event handling.</li>
+                                <li><span>React</span><br>Experience building single-page applications (SPAs) with React, including managing state with useState and useReducer, and utilizing React Router for routing.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Graduated in Computer Science &amp; Engineering (2022)</span><br>
+                                    <p><strong>Institution:</strong> Amravati University</p>
+                                    <p><strong>Date of Completion:</strong>July 2022</p></li>
+                                <li><span>Dimploma In Computer Engineering (2018)</span><br>
+                                    <p><strong>Institution:</strong> MSBTE Mumbai University</p>
+                                    <p><strong>Date of Completion:</strong>April 2018</p></li>
+                                <li><span>SSC (2012)</span><br>
+                                    <p><strong>Institution:</strong>Amravati Board</p>
+                                    <p><strong>Date of Completion:</strong>March 2012</p></li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Freelance Web Developer (Jan 2024 - Present)</span><br>
+                                    <p><strong>Description:</strong>Built responsive websites and web applications for small businesses using HTML, CSS, and React. Provided ongoing maintenance and updates to ensure optimal performance.</p></li>
+                                <li><span>Saleforce Developer Virtual Intership (Oct-Nov2023)</span><br>
+                                    <p><strong>Issuer:</strong> SmartInternz</p>
+                                    <p><strong>Date:</strong> Nov 2023</p>
+                                    <p><strong>Description:</strong>Training for Salesforce Fundamentals
+                                    Organizational Setup
+                                    Relationship &amp; Process Automation
+                                    Types Of Flows &amp; Security
+                                    Apex, Testing &amp; Debugging
+                                    VS Code Setup &amp; CLI Setup
+                                    Lightning Web Components (LWC) &amp; API</p>
+                                    <a href="#" target="_blank">View Certificate</a></li>
+                                <li><span>Web Development Certification (Oct-2020)</span><br><p><strong>Issuer:</strong> Udemy</p>
+                                    <p><strong>Date:</strong> Oct 2020</p>
+                                    <p><strong>Description:</strong> Gained comprehensive knowledge of HTML, CSS, JavaScript, and Bootstrap. Learned to build responsive, mobile-first web pages using Bootstrap and added interactivity with JavaScript. Completed several hands-on projects to solidify the concepts.</p>
+                                    <a href="#" target="_blank">View Certificate</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+<!--    servicessection     -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i> 
+                    <h2>Web Design</h2>
+                    <p>It showcases a range of design projects, demonstrating expertise in creating visually appealing, user-friendly websites. It highlights skills in layout design, color theory, typography, and responsive web design, along with proficiency in tools like HTML, CSS, and JavaScript.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i> 
+                    <h2>UI/UX Design</h2>
+                    <p>UI/UX design focuses on creating intuitive and visually appealing digital experiences. UI (User Interface) design is about the look and feel of a product, while UX (User Experience) design ensures the product is easy to use and meets the needs of users. </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>App design involves creating intuitive and visually appealing mobile applications. It focuses on user-friendly interfaces (UI) and a seamless user experience (UX) to ensure the app is easy to navigate, functional, and engaging. The process includes wireframing, prototyping, and testing to deliver an app that meets user needs and provides an enjoyable experience.</p>
+                    <a href="#">Learn more</a>
+                </div>
+        </div>
+    </div>
+</div>
+<!--          portfolio Section        -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="asset/todo.jpeg" alt="Work1">
+                    <div class="layer">
+                        <h3>Personal Portfolio Website</h3>
+                        <p> A showcase of your skills, previous work, and contact information with a clean, interactive design.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="asset/todo.jpeg" alt="Work2">
+                    <div class="layer">
+                        <h3>Movie Website</h3>
+                        <p>The app connent to millions of people arround the word</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="asset/todo.jpeg" alt="Work3">
+                    <div class="layer">
+                        <h3>To-Do List</h3>
+                        <p>A simple, interactive page that allows users to add, edit, and delete tasks, with data stored in local storage or a database.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!--   Contact Form   -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <P><i class="fas fa-paper-plane"></i> vaibhavwaghmare201295@gmail.com</P>
+                <P><i class="fas fa-phone-square-alt"></i> **********</P>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="asset/Vaibhav W.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type"text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email-id" reqired>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>&copy; 2024 Vaibhav Waghmare</p>
+    </div>
+</div>
+
+
+<script>
+    const tablinks = document.getElementsByClassName("tab-links");
+    const tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+     const sidemenu = document.getElementById("sidemenu");
+     function openmenu(){
+        sidemenu.style.right = "0";
+     }
+     function closemenu(){
+        sidemenu.style.right = "-200px";
+     }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyd1UkPDoZB4kdQa96Y6lCgt2BvZLVK_t_eTX1mjS5_jkCc6pACD2jnXvKgMmVkWFYG/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+
+</body>
+</html>
